@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/library-list-react/static/css/main.ac00297a.css",
+    "main.js": "/library-list-react/static/js/main.02efd4ec.js",
+    "index.html": "/library-list-react/index.html",
+    "main.ac00297a.css.map": "/library-list-react/static/css/main.ac00297a.css.map",
+    "main.02efd4ec.js.map": "/library-list-react/static/js/main.02efd4ec.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ac00297a.css",
+    "static/js/main.02efd4ec.js"
+  ]
+}
