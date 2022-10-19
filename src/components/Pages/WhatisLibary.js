@@ -3,7 +3,7 @@ import React from "react";
 function WhatisLibary() {
   return (
     <>
-      <section className="main-what">
+      <section className="main-what bg-screen">
         <h2 className="section-title center">Why You Use Libary</h2>
         <main className="main-what">
           <div className="main-what__img">

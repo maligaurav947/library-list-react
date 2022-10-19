@@ -5,7 +5,7 @@ import { AiOutlineStar } from "react-icons/ai";
 
 function Header() {
   return (
-    <header className="main-header">
+    <header className="main-header bg-screen">
       <div className="main-header__logo">
         <p>Libary List</p>
       </div>

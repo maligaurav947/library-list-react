@@ -7,7 +7,7 @@ function Home() {
   return (
     <>
       <Header />
-      <section className="main-home">
+      <section className="main-home bg-screen">
         <main className="main-home__main">
           <div className="main-home__main__text">
             <h2 className="main-home__main__text__title section-title">
@@ -29,6 +29,11 @@ function Home() {
       </section>
       <PopularList />
       <WhatisLibary />
+      <div className="sm-screen">
+        <h2 className="section-title">
+          This Site Don't Work On Small Device Tempory
+        </h2>
+      </div>
     </>
   );
 }

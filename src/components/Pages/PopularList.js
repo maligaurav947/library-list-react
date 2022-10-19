@@ -4,7 +4,7 @@ import data from "./asst/Libarydata";
 function PopularList() {
   return (
     <>
-      <div className="main-popular">
+      <div className="main-popular bg-screen">
         <h2 className="section-title">Here Are Some Popular Libary</h2>
         <div className="main-popular__div">
           <div className="main-libary__list__item__items__div" key={data[0].id}>

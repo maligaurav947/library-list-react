@@ -7,7 +7,7 @@ function LibaryList() {
   return (
     <>
       <Header />
-      <section className="main-libary">
+      <section className="main-libary bg-screen">
         <main className="main-libary__search">
           <input
             name="name"
