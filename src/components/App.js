@@ -7,15 +7,13 @@ import Contact from "./Pages/Contact";
 import LibaryList from "./Pages/LibaryList";
 export default function App() {
   return (
-    <>
-      <Router>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/list" element={<LibaryList />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/contact" element={<Contact />} />
-        </Routes>
-      </Router>
-    </>
+    <Router>
+      <Routes>
+        <Route path="/library-list-react/" element={<Home />} />
+        <Route path="/library-list-react/List" element={<LibaryList />} />
+        <Route path="/library-list-react/About" element={<About />} />
+        <Route path="/library-list-react/Contact" element={<Contact />} />
+      </Routes>
+    </Router>
   );
 }

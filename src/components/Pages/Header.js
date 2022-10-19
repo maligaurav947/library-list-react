@@ -1,6 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { AiOutlineStar } from "react-icons/ai";
+
+
 function Header() {
   return (
     <header className="main-header">
@@ -9,16 +11,16 @@ function Header() {
       </div>
       <div className="mian-header__list">
         <ul className="main-header__list__navbar">
-          <Link to="/">
+          <Link to="/library-list-react/" exact>
             <li className="main-header__list__navbar__item">Home</li>
           </Link>
-          <Link to="/list">
+          <Link to="/library-list-react/List" exact>
             <li className="main-header__list__navbar__item">List</li>
           </Link>
-          <Link to="/about">
+          <Link to="/library-list-react/About" exact>
             <li className="main-header__list__navbar__item">About</li>
           </Link>
-          <Link to="/contact">
+          <Link to="/library-list-react/Contact" exact>
             <li className="main-header__list__navbar__item">Contact</li>
           </Link>
         </ul>
