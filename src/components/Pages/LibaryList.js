@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-
+import { HiOutlineArrowNarrowRight } from "react-icons/hi";
 import data from "./asst/Libarydata";
 import Header from "./Header";
 function LibaryList() {
@@ -27,33 +27,32 @@ function LibaryList() {
         <main className="main-libary__list">
           <div className="main-libary__list__item">
             <div className="main-libary__list__item__items">
-              <>
-                {data
-                  .filter((data) => data.title.toLowerCase().includes(query))
-                  .map((data) => (
-                    <div
-                      className="main-libary__list__item__items__div"
-                      key={data.id}
-                    >
-                      <div className="main-libary__list__item__items__div__cat">
-                        <h2>{data.cat}</h2>
-                      </div>
-                      <h3 className="main-libary__list__item__items__div__title">
-                        {data.title}
-                      </h3>
-                      <p className="main-libary__list__item__items__div__info">
-                        {data.info}
-                      </p>
-                      <a
-                        className="main-libary__list__item__items__div__button"
-                        href={data.link}
-                        target={"_blank"}
-                      >
-                        <button className="button-17">Learn More</button>
-                      </a>
+              {data
+                .filter((data) => data.title.toLowerCase().includes(query))
+                .map((data) => (
+                  <div
+                    className="main-libary__list__item__items__div"
+                    key={data.id}
+                  >
+                    <div className="main-libary__list__item__items__div__cat">
+                      <h2>{data.cat}</h2>
                     </div>
-                  ))}
-              </>
+                    <h3 className="main-libary__list__item__items__div__title">
+                      {data.title}
+                    </h3>
+                    <p className="main-libary__list__item__items__div__info">
+                      {data.info}
+                    </p>
+                    <a
+                      className="main-libary__list__item__items__div__button"
+                      href={data.link}
+                      target={"_blank"}
+                    >
+                      Learn More
+                      <HiOutlineArrowNarrowRight className="move" />
+                    </a>
+                  </div>
+                ))}
             </div>
           </div>
         </main>

@@ -1,11 +1,9 @@
 .main-home {
   @include grid(0);
   height: 70vh;
-
   &__main {
     @include flex(space-around);
     &__text {
-      color: white;
       width: 50vw;
       height: 100%;
       gap: 15px;
@@ -13,6 +11,7 @@
       &__title {
         font-size: 4.2rem;
         font-family: $primary-ff;
+        margin: 0 !important;
       }
       &__info {
         font-size: 0.8rem;
@@ -75,7 +74,6 @@
   &__text {
     font-size: 0.7rem;
     font-family: $sec-ff;
-    color: white;
     text-align: justify;
     line-height: 33px;
   }

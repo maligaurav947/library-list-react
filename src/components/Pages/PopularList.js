@@ -1,5 +1,6 @@
 import { React } from "react";
 import { Link } from "react-router-dom";
+import { HiOutlineArrowNarrowRight } from "react-icons/hi";
 import data from "./asst/Libarydata";
 function PopularList() {
   return (
@@ -22,7 +23,8 @@ function PopularList() {
               href={data[0].link}
               target={"_blank"}
             >
-              <button className="button-17">Learn More</button>
+              Learn More
+              <HiOutlineArrowNarrowRight />
             </a>
           </div>
 
@@ -41,7 +43,8 @@ function PopularList() {
               href={data[3].link}
               target={"_blank"}
             >
-              <button className="button-17">Learn More</button>
+              Learn More
+              <HiOutlineArrowNarrowRight />
             </a>
           </div>
           <div className="main-libary__list__item__items__div" key={data[7].id}>
@@ -59,12 +62,13 @@ function PopularList() {
               href={data[7].link}
               target={"_blank"}
             >
-              <button className="button-17">Learn More</button>
+              Learn More
+              <HiOutlineArrowNarrowRight />
             </a>
           </div>
         </div>
         <div className="btn-group">
-          <Link to="/list">
+          <Link to="/library-list-react/List">
             <button className="button-17">Load More</button>
           </Link>
         </div>

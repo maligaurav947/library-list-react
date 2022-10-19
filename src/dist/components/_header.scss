@@ -2,16 +2,17 @@
   @include flex(space-around);
   height: 10vh;
   width: 100%;
-
   position: sticky;
+  background-color: white;
   z-index: 99;
   top: 0;
-  background-color: rgba(240, 248, 255, 0.721);
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
   &__logo {
-   font-family: $primary-ff;
+    font-family: 'Sofia', cursive;
    font-size: 1.7rem
   }
   &__list {
+    
     &__navbar {
       @include flex(0);
       font-family: $primary-ff;
@@ -19,6 +20,7 @@
         padding: 0.5em 1em;
         cursor: pointer;
         font-size: 0.7rem;
+        color: black;
         &:hover {
           @include hover;
         }
@@ -26,7 +28,7 @@
     }
   }
   &__icon{
-   width: 204px;
+   width: 88px;
    height: 65px;
    @include grid(center);
   

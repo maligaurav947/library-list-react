@@ -3,8 +3,8 @@ const data = [
     id: 1,
     cat: "Popular",
     title: "React.js",
-    info: "AnyChart helps you to achieve your software development and ultimately, your business goals. We give you the most advanced, best designed and best supported solutions available. We are constantly enhancing our products with new features",
-    link: "https://www.anychart.com/",
+    info: "React is a free and open-source front-end JavaScript library for building user interfaces based on UI components. It is maintained by Meta and a community of individual developers and companies.",
+    link: "https://reactjs.org/",
   },
   {
     id: 2,

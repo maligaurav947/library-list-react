@@ -7,7 +7,7 @@ function Header() {
   return (
     <header className="main-header bg-screen">
       <div className="main-header__logo">
-        <p>Libary List</p>
+        <p>LList</p>
       </div>
       <div className="mian-header__list">
         <ul className="main-header__list__navbar">
@@ -26,7 +26,10 @@ function Header() {
         </ul>
       </div>
       <div className="main-header__icon">
-        <a href="https://github.com/maligaurav947/toy-shop" target={"_blank"}>
+        <a
+          href="https://github.com/maligaurav947/library-list-react"
+          target={"_blank"}
+        >
           <AiOutlineStar size={35} color="" />
         </a>
       </div>
