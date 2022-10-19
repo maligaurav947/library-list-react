@@ -1,0 +1,16 @@
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ ::selection{
+  background-color: white !important;
+ }
+}
+
+body{
+ font-size: 62.5%;
+ background-color: #022B3A;
+}
+html{
+ font-size: 1.6rem;
+}

@@ -1,0 +1,89 @@
+::-webkit-scrollbar{
+  width: 0px;
+}
+.main-libary {
+  min-height: 100vh;
+  height: 100%;
+  margin-top: 5vh;
+  &__search {
+    height: 20vh;
+    @include flex(space-around);
+    flex-direction: column;
+    &__input {
+      display: grid;
+      font-family: $sec-ff;
+      box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+        rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+      width: 30vw;
+      height: 50px;
+      border-radius: 15px;
+      padding: 0 0.2em;
+      outline: none;
+      border: none;
+      font-size: 1.2rem;
+    }
+    &__list {
+      @include flex(center);
+      div {
+        background-color: #e1e5f2;
+        margin: 0 0.5em;
+        width: 100%;
+        height: 50px;
+        border-radius: 15px;
+        text-align: center;
+        @include grid(center);
+        color: purple;
+        padding: 0 0.7em;
+        font-family: $primary-ff;
+        font-weight: 600;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+          rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+      }
+    }
+  }
+
+  &__list {
+    padding: 5vh 0;
+    &__item {
+      @include grid(center);
+      &__items {
+        @include grid(center);
+        grid-template-columns: auto auto auto;
+        gap: 2vw;
+        &__div {
+          @include grid(center);
+          padding: 0.8em;
+          background-color: #e1e5f2;
+          border-radius: 15px;
+          border-bottom: 5.5px solid purple;
+          width: 400px;
+          height: 250px;
+          box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+            rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+          &__cat {
+            @include flex(0);
+            h2 {
+              background-color: purple;
+              padding: 0.5em;
+              font-size: 0.5rem;
+              color: rgb(255, 255, 255);
+              border-radius: 5px;
+              font-family: $primary-ff;
+            }
+          }
+          &__title {
+            font-size: 1.2rem;
+            color: black;
+            font-family: $primary-ff;
+          }
+          &__info {
+            font-weight: 400;
+            color: #121212;
+            font-size: 0.5rem;
+            font-family: $sec-ff;
+          }
+        }
+      }
+    }
+  }
+}
