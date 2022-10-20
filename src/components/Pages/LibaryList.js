@@ -13,6 +13,7 @@ function LibaryList() {
             name="name"
             className="main-libary__search__input"
             id="searchinput"
+            pattern="[a-z]*"
             onChange={(e) => setQuery(e.target.value)}
           />
 
