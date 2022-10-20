@@ -78,9 +78,10 @@
             rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
           &__cat {
             @include flex(0);
+
             h2 {
               font-size: 0.5rem;
-              color: blue;
+              color: blue !important;
               border-radius: 5px;
               font-family: $primary-ff;
             }
@@ -89,12 +90,12 @@
             align-self: flex-start;
             font-size: 1.1rem;
             font-family: $primary-ff;
-            color: $font-color;
+            color: $font-color !important;
           }
           &__info {
             align-self: flex-start;
             font-weight: 500;
-            color: $font-color;
+            color: $font-color !important;
             line-height: 20px;
             display: -webkit-box;
             -webkit-line-clamp: 3;
@@ -108,7 +109,10 @@
             font-weight: 600;
             @include flex(0);
             gap: 10px;
-            color: rgba(0, 0, 255, 0.703);
+            color: rgba(0, 0, 255, 0.702) !important;
+           .move{
+            color: rgba(0, 0, 255, 0.702) !important;
+           }
             &:hover {
               .move {
                 transform: translateX(5px);

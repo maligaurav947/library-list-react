@@ -30,5 +30,8 @@
     width: 164px;
     height: 65px;
     @include grid(center);
+   *{
+    color: yellow !important;
+   }
   }
 }
