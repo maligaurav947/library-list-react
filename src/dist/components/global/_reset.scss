@@ -12,8 +12,13 @@
 }
 body{
  font-size: 62.5%;
- background-color: azure;
+ 
+
+background-color: #12121260;
+background-color: rgba(126, 180, 226, 0.271);
+background-blend-mode: multiply;
 }
+
 html{
  font-size: 1.6rem;
 }

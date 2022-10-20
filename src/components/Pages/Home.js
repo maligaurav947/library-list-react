@@ -23,7 +23,12 @@ function Home() {
             <button className="button-17">Learn More</button>
           </div>
           <div className="main-home__main__img">
-            <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/la-trobe-reading-room-of-state-library-of-victoria-royalty-free-image-1654023827.jpg" />
+            <figure>
+              <img
+                src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/la-trobe-reading-room-of-state-library-of-victoria-royalty-free-image-1654023827.jpg"
+                alt="Library"
+              />
+            </figure>
           </div>
         </main>
       </section>

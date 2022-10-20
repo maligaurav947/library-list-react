@@ -6,7 +6,7 @@
   height: 100%;
   margin-top: 5vh;
   &__search {
-  //  height: 20vh;
+    //  height: 20vh;
     @include flex(space-around);
     flex-direction: column;
     &__input {
@@ -14,13 +14,13 @@
       font-family: $sec-ff;
       width: 30vw;
       height: 50px;
-      box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+      box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px,
+        rgb(51, 51, 51) 0px 0px 0px 3px;
       border-radius: 15px;
       padding: 0.4em 0.4em;
       outline: none;
       border: none;
       font-size: 1.2rem;
-   color: #777;
     }
     &__list {
       display: none !important;
@@ -55,6 +55,7 @@
           @include grid(center);
           padding: 0.8em;
           border-radius: 15px;
+          background-color: white;
           border-bottom: 2px solid lightblue;
           width: 400px;
           height: 260px;
@@ -71,15 +72,14 @@
           }
           &__title {
             align-self: flex-start;
-
             font-size: 1.1rem;
-            color: black;
             font-family: $primary-ff;
+            color: $font-color;
           }
           &__info {
             align-self: flex-start;
             font-weight: 500;
-            color: #121212;
+            color: $font-color;
             line-height: 20px;
             display: -webkit-box;
             -webkit-line-clamp: 3;

@@ -2,6 +2,7 @@
   @include grid(0);
   height: 70vh;
   &__main {
+    color: $font-color;
     @include flex(space-around);
     &__text {
       width: 50vw;
@@ -12,6 +13,7 @@
         font-size: 4.2rem;
         font-family: $primary-ff;
         margin: 0 !important;
+        color: $font-color;
       }
       &__info {
         font-size: 0.8rem;
@@ -22,6 +24,7 @@
       .button-17 {
         height: 40px;
         font-size: 0.5rem;
+        color: $font-color;
       }
     }
     &__img {
@@ -36,6 +39,7 @@
 .main-popular {
   .section-title {
     text-align: center;
+    color: $font-color;
   }
   &__div {
     @include flex(space-evenly);
@@ -52,30 +56,32 @@
   }
 }
 .main-what {
-  h2{
-    text-align: center
+  h2 {
+    text-align: center;
+    color: $font-color;
   }
-.main-what{
-  @include flex(center);
-  gap: 25px;
-  height: 70vh;
-  padding: 0 5em;
-  &__img {
-    background-color: aliceblue;
-    border-radius: 15px;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    img {
-      width: 45vw;
-      object-fit: contain;
+  .main-what {
+    @include flex(center);
+    gap: 25px;
+    height: 70vh;
+    padding: 0 5em;
+    &__img {
+      background-color: aliceblue;
       border-radius: 15px;
       box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+      img {
+        width: 45vw;
+        object-fit: contain;
+
+        border-radius: 15px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+      }
+    }
+    &__text {
+      font-size: 0.7rem;
+      font-family: $sec-ff;
+      text-align: justify;
+      line-height: 33px;
     }
   }
-  &__text {
-    font-size: 0.7rem;
-    font-family: $sec-ff;
-    text-align: justify;
-    line-height: 33px;
-  }
-}
 }

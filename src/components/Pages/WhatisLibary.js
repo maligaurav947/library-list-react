@@ -7,7 +7,10 @@ function WhatisLibary() {
         <h2 className="section-title center">Why You Use Libary</h2>
         <main className="main-what">
           <div className="main-what__img">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Ogg_vorbis_libs_and_application_dia.svg/675px-Ogg_vorbis_libs_and_application_dia.svg.png" />
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Ogg_vorbis_libs_and_application_dia.svg/675px-Ogg_vorbis_libs_and_application_dia.svg.png"
+              alt="Explain Why Library Are Needed"
+            />
           </div>
           <div className="main-what__text">
             <p className="main-what__text__info">
