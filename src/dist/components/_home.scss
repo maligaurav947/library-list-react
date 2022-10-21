@@ -30,7 +30,8 @@
       width: 40vw;
       img {
         border-radius: 15px;
-        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px,
+          rgb(51, 51, 51) 0px 0px 0px 3px;
       }
     }
   }
@@ -64,16 +65,18 @@
     gap: 25px;
     height: 70vh;
     padding: 0 5em;
+
     &__img {
-      background-color: aliceblue;
       border-radius: 15px;
+
       box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
       img {
         width: 45vw;
         object-fit: contain;
-
+        background-color: rgb(255, 255, 255) !important;
         border-radius: 15px;
-        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px,
+          rgb(51, 51, 51) 0px 0px 0px 3px;
       }
     }
     &__text {
@@ -83,4 +86,68 @@
       line-height: 33px;
     }
   }
+}
+.main-adv {
+  margin: 0 2vw;
+  display: grid;
+  gap: 2vh;
+  &__left{
+    @include grid(0);
+    h3{
+      font-size: 2.5rem;
+      font-family: $primary-ff;
+      color: $font-color;
+    }
+    &__text {
+      gap: 15px;
+      display: grid;
+      &__info {
+        margin: 0 0.5em;
+        ul {
+          gap: 20px;
+          display: grid;
+          li {    
+            list-style-type: decimal-leading-zero;
+            font-family: $primary-ff;
+            font-weight: 300;
+          }
+        }
+      }
+    }
+  }
+  &__right {
+    @include grid(0);
+    h3{
+      font-size: 2.5rem;
+      font-family: $primary-ff;
+      color: $font-color;
+    }
+    &__text {
+      gap: 15px;
+      display: grid;
+      &__info {
+        margin: 0 0.5em;
+        ul {
+          gap: 15px;
+          display: grid;
+          li {    
+            list-style-type: decimal-leading-zero;
+            font-family: $primary-ff;
+            font-weight: 300;
+          }
+        }
+      }
+    }
+  }
+}
+
+.bold {
+  font-weight: 900;
+  font-size: 1.3rem;
+  font-family: $special-ff;      border-bottom: 2px solid rgb(0, 0, 0);
+}
+.main-adv__text__title {
+  font-size: 3rem;
+  font-family: $primary-ff;
+  color: $font-color;
 }

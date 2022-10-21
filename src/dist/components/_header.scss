@@ -2,11 +2,12 @@
   @include flex(space-around);
   height: 10vh;
   width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
   position: sticky;
-  z-index: 9;
-  background-color: #8bc6ec;
-  background-image: linear-gradient(135deg, #8bc6ec 0%, #9599e2 100%);
-  top: 0;
+  top: 0px;
+  background-color: rgba(255, 255, 255, 0.642);
+
+  z-index: 99;
   &__logo {
     font-family: $primary-ff;
     font-size: 1.7rem;
@@ -30,8 +31,6 @@
     width: 164px;
     height: 65px;
     @include grid(center);
-   *{
-    color: yellow !important;
-   }
+
   }
 }

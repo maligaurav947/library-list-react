@@ -1,7 +1,7 @@
 import { React } from "react";
 import { Link } from "react-router-dom";
 import { HiOutlineArrowNarrowRight } from "react-icons/hi";
-import data from "./asst/Libarydata";
+import data from "./Libarydata";
 function PopularList() {
   return (
     <>

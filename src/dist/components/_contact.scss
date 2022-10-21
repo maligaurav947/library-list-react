@@ -1,0 +1,50 @@
+.main-contact {
+  display: flex;
+  align-items: center;
+  height: 80vh;
+  width: 100%;
+  gap: 25px;
+  justify-content: center;
+  &__img {
+    img {
+      width: 700px;
+      border-radius: 15px;
+      background-color: #fff !important;
+      box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px,
+        rgb(51, 51, 51) 0px 0px 0px 3px;
+    }
+  }
+  &__form {
+    display: grid;
+    position: relative;
+    gap: 25px;
+    input,
+    textarea {
+      width: 450px;
+      height: 50px;
+      border: none;
+      outline: none;
+      border-bottom: 2px solid black;
+      padding: 0.5em;
+      text-transform: capitalize;
+      font-family: $special-ff;
+      font-size: 0.8rem;
+    }
+    .main-contact__form__input__email {
+      text-transform: unset !important;
+    }
+    textarea {
+      height: 105px !important;
+    }
+  }
+}
+.aftersubmting{
+ display: none;
+ position: absolute;
+ bottom: -100px;
+ p{
+  color: green;
+ font-size: 1.5rem;
+  font-family: $special-ff;
+ }
+}

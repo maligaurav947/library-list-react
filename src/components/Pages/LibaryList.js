@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import { HiOutlineArrowNarrowRight } from "react-icons/hi";
 import data from "./asst/Libarydata";
-import Header from "./Header";
+import Header from "../Pages/asst/Header";
+import Fotter from "./asst/Fotter";
 function LibaryList() {
   const [query, setQuery] = useState("");
   return (
@@ -58,6 +59,7 @@ function LibaryList() {
           </div>
         </main>
       </section>
+      <Fotter />
     </>
   );
 }

@@ -1,7 +1,9 @@
 import React from "react";
-import Header from "./Header";
-import PopularList from "./PopularList";
-import WhatisLibary from "./WhatisLibary";
+import Adv from "./asst/Adv";
+import Fotter from "./asst/Fotter";
+import Header from "../Pages/asst/Header";
+import PopularList from "../Pages/asst/PopularList";
+import WhatisLibary from "../Pages/asst/WhatisLibary";
 
 function Home() {
   return (
@@ -34,6 +36,8 @@ function Home() {
       </section>
       <PopularList />
       <WhatisLibary />
+      <Adv />
+      <Fotter />
       <div className="sm-screen">
         <h2 className="section-title">
           This Site Don't Work On Small Device Tempory

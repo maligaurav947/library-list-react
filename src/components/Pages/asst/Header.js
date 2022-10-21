@@ -1,8 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { AiOutlineStar } from "react-icons/ai";
-import { GiNightSleep } from "react-icons/gi";
-import { FiSun } from "react-icons/fi";
+
 function Header() {
   return (
     <>
@@ -31,23 +30,8 @@ function Header() {
             href="https://github.com/maligaurav947/library-list-react"
             target={"_blank"}
           >
-            <AiOutlineStar size={35} color="" />
+            <AiOutlineStar size={35} color="blue" />
           </a>
-        </div>
-        <div className="toogle">
-          <input
-            type="checkbox"
-            className="checkbox"
-            id="checkbox"
-            onClick={document.addEventListener("change", () => {
-              document.body.classList.toggle("dark");
-            })}
-          />
-          <label for="checkbox" className="label">
-            <FiSun color="yellow" />
-            <GiNightSleep color="pink" />
-            <div className="ball"></div>
-          </label>
         </div>
       </header>
     </>
