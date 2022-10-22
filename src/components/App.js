@@ -4,6 +4,7 @@ import About from "./Pages/About";
 import ContactForm from "./Pages/ContactForm.js";
 import LibaryList from "./Pages/LibaryList";
 import "../dist/css/main.css";
+import Errorpage from "./Pages/asst/Error";
 
 export default function App() {
   return (
@@ -13,6 +14,7 @@ export default function App() {
         <Route path="/List" element={<LibaryList />} />
         <Route path="/About" element={<About />} />
         <Route path="/Contact" element={<ContactForm />} />
+        <Route path="*" element={<Errorpage />} />
       </Routes>
     </HashRouter>
   );
