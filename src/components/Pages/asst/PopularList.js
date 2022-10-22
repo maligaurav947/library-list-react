@@ -68,7 +68,7 @@ function PopularList() {
           </div>
         </div>
         <div className="btn-group">
-          <Link to="/library-list-react/List">
+          <Link to="/List">
             <button className="button-17">Load More</button>
           </Link>
         </div>
