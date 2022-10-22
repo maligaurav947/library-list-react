@@ -8,7 +8,10 @@ function About() {
       <Header />
       <main className="main-about">
         <div className="main-about__img">
-          <img src="https://blush.design/api/download?shareUri=DmVD0iHRBSOOrYtb&c=Skin_0%7Eedb98a&w=800&h=800&fm=png" />
+          <img
+            src="https://blush.design/api/download?shareUri=DmVD0iHRBSOOrYtb&c=Skin_0%7Eedb98a&w=800&h=800&fm=png"
+            alt="Its Me"
+          />
         </div>
         <div className="main-about__text">
           <h3 className="section-title">Mali Gaurav</h3>

@@ -15,7 +15,7 @@ function Fotter() {
       </div>
       <div class="footer-bottom">
         <p>
-          copyright &copy;2022{" "}
+          copyright &copy;2022
           <a href="https://github.com/maligaurav947">@maligaurav947</a>{" "}
         </p>
         <div class="footer-menu">

@@ -5,7 +5,6 @@ function Adv() {
     <>
       <div className="main-adv">
         <div className="main-adv__left">
-          <img src="" />
           <div className="main-adv__left__text">
             <h3 className="main-adv__left__text__title">
               advantages of using libraries :-
@@ -68,7 +67,6 @@ function Adv() {
           </div>
         </div>
         <div className="main-adv__right">
-          <img src="" />
           <div className="main-adv__right__text">
             <h3 className="main-adv__right__text__title">
               disadvantage of using libraries :-

@@ -21,7 +21,10 @@ function ContactForm() {
       <Header />
       <main className="main-contact">
         <div className="main-contact__img">
-          <img src="https://blush.design/api/download?shareUri=krBWItBK9TCncKDf&c=Clothing_0%7E02bad3-0.2%7E02bad3-0.3.0.0.2.0%7Eff8333&w=800&h=800&fm=png" />
+          <img
+            src="https://blush.design/api/download?shareUri=krBWItBK9TCncKDf&c=Clothing_0%7E02bad3-0.2%7E02bad3-0.3.0.0.2.0%7Eff8333&w=800&h=800&fm=png"
+            alt="contact-img"
+          />
         </div>
         <form className="main-contact__form" onSubmit={handleSubmit}>
           <div className="main-contact__form__input">

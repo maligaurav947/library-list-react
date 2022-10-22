@@ -22,6 +22,7 @@ function PopularList() {
               className="main-libary__list__item__items__div__button"
               href={data[0].link}
               target={"_blank"}
+              rel="noreferrer"
             >
               Learn More
               <HiOutlineArrowNarrowRight />
@@ -42,6 +43,7 @@ function PopularList() {
               className="main-libary__list__item__items__div__button"
               href={data[3].link}
               target={"_blank"}
+              rel="noreferrer"
             >
               Learn More
               <HiOutlineArrowNarrowRight />
@@ -61,6 +63,7 @@ function PopularList() {
               className="main-libary__list__item__items__div__button"
               href={data[7].link}
               target={"_blank"}
+              rel="noreferrer"
             >
               Learn More
               <HiOutlineArrowNarrowRight />
