@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import Home from "./Pages/Home";
 import About from "./Pages/About";
 import ContactForm from "./Pages/ContactForm.js";
@@ -7,13 +7,13 @@ import "../dist/css/main.css";
 
 export default function App() {
   return (
-    <Router>
+    <HashRouter>
       <Routes>
-        <Route path="/library-list-react/" element={<Home />} />
-        <Route path="/library-list-react/List" element={<LibaryList />} />
-        <Route path="/library-list-react/About" element={<About />} />
-        <Route path="/library-list-react/Contact" element={<ContactForm />} />
+        <Route path="/" element={<Home />} />
+        <Route path="/List" element={<LibaryList />} />
+        <Route path="/About" element={<About />} />
+        <Route path="/Contact" element={<ContactForm />} />
       </Routes>
-    </Router>
+    </HashRouter>
   );
 }

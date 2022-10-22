@@ -11,16 +11,16 @@ function Header() {
         </div>
         <div className="mian-header__list">
           <ul className="main-header__list__navbar">
-            <Link to="/library-list-react/" exact>
+            <Link to="/" exact>
               <li className="main-header__list__navbar__item">Home</li>
             </Link>
-            <Link to="/library-list-react/List" exact>
+            <Link to="/List" exact>
               <li className="main-header__list__navbar__item">List</li>
             </Link>
-            <Link to="/library-list-react/About" exact>
+            <Link to="/About" exact>
               <li className="main-header__list__navbar__item">About</li>
             </Link>
-            <Link to="/library-list-react/Contact" exact>
+            <Link to="/Contact" exact>
               <li className="main-header__list__navbar__item">Contact</li>
             </Link>
           </ul>
