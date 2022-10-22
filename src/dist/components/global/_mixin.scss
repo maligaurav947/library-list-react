@@ -1,21 +1,22 @@
 @mixin grid($justify) {
- display: grid;
- align-items: center;
- justify-content: $justify;
+  display: grid;
+  align-items: center;
+  justify-content: $justify;
 }
 
-
 @mixin flex($justify) {
- display: flex;
- align-items: center;
- justify-content: $justify;
+  display: flex;
+  align-items: center;
+  justify-content: $justify;
 }
 
 @mixin hover {
- color: #fff;
- background-color: #1A1A1A;
+  color: #fff;
+  background-color: #1a1a1a;
 }
 
 @mixin boder {
- box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px,
+    rgba(6, 24, 44, 0.65) 0px 4px 6px -1px,
+    rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
 }

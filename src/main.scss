@@ -1,12 +1,12 @@
-@import "./dist/components/global/variable"; 
-@import "./dist/components/global/import"; 
+@import "./dist/components/global/variable";
+@import "./dist/components/global/import";
 @import "./dist/components/global/mixin";
-@import "./dist/components/global/reset"; 
-@import "./dist/components/global/testmoinal"; 
- 
-@import "./dist/components/header" ;
-@import "./dist/components/home" ;
-@import "./dist/components/footer" ;
-@import "./dist/components/libary" ;
-@import "./dist/components/contact";
+@import "./dist/components/global/reset";
+@import "./dist/components/global/testmoinal";
+@import "./dist/components/header";
+@import "./dist/components/home";
+@import "./dist/components/libary";
 @import "./dist/components/about";
+@import "./dist/components/contact";
+@import "./dist/components/footer";
+@import "./dist/components/mediaQ";

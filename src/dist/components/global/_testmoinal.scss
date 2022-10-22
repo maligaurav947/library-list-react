@@ -2,10 +2,8 @@
 .button-17 {
   align-items: center;
   appearance: none;
-
   border-radius: 24px;
   border-style: none;
-
   box-sizing: border-box;
   font-family: $primary-ff;
   cursor: pointer;
@@ -72,6 +70,8 @@
 
 a {
   text-decoration: none;
+
+  color: white;
 }
 li {
   list-style-type: none;
@@ -99,6 +99,28 @@ img {
     background-color: hsl(200, 20%, 95%);
   }
 }
+p {
+  font-family: $special-ff;
+}
 
-
-
+.main-error {
+  background: url(https://cdn.svgator.com/images/2022/01/funny-404-error-page-design.gif)
+    no-repeat center;
+  background-color: #ffffff;
+  background-size: contain;
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  a {
+    margin: 0 auto;
+  }
+  h1 {
+    color: #3c4043;
+    font-family: $primary-ff;
+  }
+  &::selection {
+    background: transparent;
+  }
+}

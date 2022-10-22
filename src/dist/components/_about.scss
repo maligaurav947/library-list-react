@@ -1,26 +1,19 @@
-.main-about{
- display: flex;
- width: 100vw;
- margin-top: 5vh;
- align-items: center;
- gap: 25px;
- justify-content: center;
- &__img{
-  width: 30vw;
-
-img{
- background-color: #fff !important;
-}
- }
-&__text{
- width: 50vw;
- h3{
-  letter-spacing: 10px;
-  border-bottom: 4px solid saddlebrown ;
- }
- p{
-  font-family: $special-ff;
-  line-height: 25px;
- }
-}
+.main-about {
+  width: 100vw;
+  margin-top: 5vh;
+  gap: $gap-unit;
+  @include flex(center);
+  &__img {
+    width: 30vw;
+  }
+  &__text {
+    width: 50vw;
+    h3 {
+      letter-spacing: 10px;
+      border-bottom: 4px solid saddlebrown;
+    }
+    p {
+      line-height: 25px;
+    }
+  }
 }

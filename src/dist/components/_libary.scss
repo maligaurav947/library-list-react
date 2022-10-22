@@ -21,18 +21,18 @@
       outline: none;
       border: none;
       font-size: 1.2rem;
-      &:invalid{
-        animation: shake both .3s;
-       color: red;
+      &:invalid {
+        animation: shake both 0.3s;
+        color: red;
       }
       @keyframes shake {
-        25%{
+        25% {
           transform: translateX(4px);
         }
-        50%{
+        50% {
           transform: translateX(-4px);
         }
-        75%{
+        75% {
           transform: translateX(4px);
         }
       }
@@ -74,9 +74,12 @@
           width: 400px;
           height: 260px;
           margin: 1vw;
-          box-shadow: rgba(0, 0, 0, 0.053) 0px 1px 4px, rgba(51, 51, 51,0.52) 0px 0px 0px 3px;
-          &:hover,&:focus{
-            box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+          box-shadow: rgba(0, 0, 0, 0.053) 0px 1px 4px,
+            rgba(51, 51, 51, 0.52) 0px 0px 0px 3px;
+          &:hover,
+          &:focus {
+            box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px,
+              rgb(51, 51, 51) 0px 0px 0px 3px;
           }
           &__cat {
             @include flex(0);
@@ -114,9 +117,9 @@
             @include flex(0);
             gap: 10px;
             color: rgba(0, 0, 255, 0.702) !important;
-           .move{
-            color: rgba(0, 0, 255, 0.702) !important;
-           }
+            .move {
+              color: rgba(0, 0, 255, 0.702) !important;
+            }
             &:hover {
               .move {
                 transform: translateX(5px);

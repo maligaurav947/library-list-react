@@ -1,0 +1,14 @@
+ @media screen and (max-width:756px) {
+  .bg-screen{
+   display: none !important;
+  }
+  .sm-screen{
+   @include grid(center);
+   width: 100vw;
+   height: 100vh;
+   h2{
+    font-size: 1.5rem !important;
+    text-align: center;
+   }
+  }
+ }

@@ -1,61 +1,26 @@
-*{
- margin: 0;
- padding: 0;
- box-sizing: border-box;
- 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  img {
+    background-color: #fff !important;
+  }
 }
-a{
-  color: white;
+body {
+  font-size: 62.5%;
 }
-::selection{
-  img{
+::selection {
+  img {
     background-color: transparent;
   }
-  background-color: #4286f488 !important; 
-}
-body{
- font-size: 62.5%;
+  background-color: #4286f488 !important;
 }
 
-html{
- font-size: 1.6rem;
-}
-.sm-screen{
- display: none;
-}
-@media screen and (max-width:756px) {
- .bg-screen{
-  display: none !important;
- }
- .sm-screen{
-  @include grid(center);
-  width: 100vw;
-  height: 100vh;
-  h2{
-   font-size: 1.5rem !important;
-   text-align: center;
-  }
- }
+html {
+  font-size: 1.6rem;
 }
 
-.main-error {
-  background: url(https://cdn.svgator.com/images/2022/01/funny-404-error-page-design.gif)
-    no-repeat center;
-  background-color: #ffffff;
-  background-size: contain;
-  height: 100vh;
-  width: 100vw;
-  display: grid;
-  align-items: center;
-  justify-content: center;
-  a {
-    margin: 0 auto;
-  }
-  h1 {
-    color: #3c4043;
-    font-family: $primary-ff;
-  }
-  &::selection {
-    background: transparent;
-  }
+.sm-screen {
+  display: none;
 }

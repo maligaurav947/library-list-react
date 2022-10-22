@@ -1,23 +1,20 @@
 .main-contact {
-  display: flex;
-  align-items: center;
+  @include flex(center);
   height: 80vh;
-  width: 100%;
-  gap: 25px;
-  justify-content: center;
+  gap: $gap-unit;
   &__img {
     img {
       width: 700px;
-      border-radius: 15px;
+      border-radius: $boder-radius;
       background-color: #fff !important;
-    @include boder;
+      @include boder;
     }
   }
   &__form {
     display: grid;
     position: relative;
-    gap: 25px;
-    div{
+    gap: $gap-unit;
+    div {
       font-family: $primary-ff;
     }
     input,
@@ -38,26 +35,26 @@
     textarea {
       max-width: 450px;
       min-width: 450px;
-
       height: 105px !important;
     }
   }
 }
-.after-submit{
+.after-submit {
   @include flex(center);
   flex-direction: column;
   width: 100%;
-background: url(https://blush.design/api/download?shareUri=doIXXJnmK&w=800&h=800&fm=png) no-repeat center ;
-background-size: contain;
+  background: url(https://blush.design/api/download?shareUri=doIXXJnmK&w=800&h=800&fm=png)
+    no-repeat center;
+  background-size: contain;
   height: 100vh;
-  p{
+  p {
     font-size: 5.6rem;
     font-weight: 600;
-    color: #fff;
-    font-family: $primary-ff;
-    text-shadow: 2px 10px  15px black;
+    color: #fff !important;
+    font-family: $primary-ff !important;
+    text-shadow: 2px 10px 15px black;
   }
-  button{
+  button {
     font-size: 1.4rem;
     width: 206px !important;
     height: 70px !important;
