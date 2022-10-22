@@ -8,7 +8,7 @@ function ContactForm() {
     return (
       <div className="after-submit">
         <p>Thanks for joining!</p>
-        <Link to="/library-list-react/" exact>
+        <Link to="/" exact>
           <button type="submit" className="button-17">
             Home
           </button>
