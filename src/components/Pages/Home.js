@@ -12,9 +12,9 @@ function Home() {
       <section className="main-home bg-screen">
         <main className="main-home__main">
           <div className="main-home__main__text">
-            <h2 className="main-home__main__text__title section-title">
+            <h3 className="main-home__main__text__title section-title">
               Libary List
-            </h2>
+            </h3>
             <p className="main-home__main__text__info section-info">
               In computer science, a library is a collection of non-volatile
               resources used by computer programs, often for software
