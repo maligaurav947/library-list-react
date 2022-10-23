@@ -5,20 +5,40 @@
   p {
     padding: 0 0.5em;
   }
-  .open,
-  .close {
+  .open {
     display: block;
+    position: absolute;
+    right: 25px;
+    font-size:1.5rem;
+    z-index: 99;
   }
+
   .main-header {
+    &__logo {
+      position: absolute;
+      left: 0;
+    }
     &__list {
       position: fixed;
-      display: inline-block;
       top: 0px;
       right: 0;
+      width: 100%;
+      text-align: center;
+      padding: 2vh 0;
+
+      background-color: aliceblue;
       &__navbar {
+
         flex-direction: column;
+        li {
+          margin: 5vh 0;
+        }
       }
     }
+  }
+
+  .main-header__icon {
+    display: none;
   }
   .main-about {
     flex-direction: column;
@@ -124,5 +144,8 @@
   .main-libary__list__item__items {
     grid-template-columns: auto;
     gap: 25px;
+  }
+  .main-libary__list__item__items__div {
+    width: 370px;
   }
 }
