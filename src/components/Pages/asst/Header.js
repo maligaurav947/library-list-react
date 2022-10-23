@@ -1,15 +1,18 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { AiOutlineStar } from "react-icons/ai";
+import { AiOutlineStar, AiOutlineClose } from "react-icons/ai";
+import { BsThreeDots } from "react-icons/bs";
 
 function Header() {
   return (
     <>
       <header className="main-header bg-screen">
+        <BsThreeDots className="open" />
+        <AiOutlineClose className="close" />
         <div className="main-header__logo">
           <p>LibraryL</p>
         </div>
-        <div className="mian-header__list">
+        <div className="main-header__list">
           <ul className="main-header__list__navbar">
             <Link to="/" exact>
               <li className="main-header__list__navbar__item">Home</li>

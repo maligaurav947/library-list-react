@@ -38,11 +38,6 @@ function Home() {
       <WhatisLibary />
       <Adv />
       <Fotter />
-      <div className="sm-screen">
-        <h2 className="section-title">
-          This Site Don't Work On Small Device Tempory
-        </h2>
-      </div>
     </>
   );
 }
