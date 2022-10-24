@@ -12,7 +12,9 @@
     font-size:1.5rem;
     z-index: 99;
   }
-
+.bigscreen{
+  display: none !important;
+}
   .main-header {
     &__logo {
       position: absolute;
